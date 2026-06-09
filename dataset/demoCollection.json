@@ -1,0 +1,49 @@
+{
+    "collection_name": "demoCollection",
+    "description": "This is a demo collection for testing purposes.",
+    "category": "demo",
+    "quizzes": [
+        {
+            "id": "1",
+            "type": "single_choice",
+            "content": {
+                "blocks": [
+                    {
+                        "type": "text",
+                        "content": "1+1=?"
+                    }
+                ]
+            },
+            "options": [
+                "1",
+                "2",
+                "3"
+            ],
+            "answer": "2"
+        },
+        {
+            "id": "2",
+            "type": "short_answer",
+            "content": {
+                "question": "法国的首都在哪里？"
+            },
+            "answer": "巴黎"
+        },
+        {
+            "id": "3",
+            "type": "short_answer",
+            "content": {
+                "question": "世界的最高峰是什么？"
+            },
+            "answer": "珠穆朗玛峰"
+        },
+        {
+            "id": "4",
+            "type": "short_answer",
+            "content": {
+                "question": "写下《荷塘月色》的作者是谁？"
+            },
+            "answer": "朱自清"
+        }
+    ]
+}

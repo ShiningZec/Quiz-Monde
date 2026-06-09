@@ -1,0 +1,5 @@
+{
+    "base_URL": "https://api.deepseek.com",
+    "model": "default",
+    "api_key": "<YOUR_API_KEY_HERE>"
+}
