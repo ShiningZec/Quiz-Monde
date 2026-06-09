@@ -7,7 +7,11 @@ class QuizLoaderAI:
     def __init__(self):
         ...
 
-    def dump_and_drop_quizzes(self, file_path: str):
+    def dump_and_drop_quizzes(self, file_path: str) -> str:
+        """
+        :Params: file_path: str 描述预期 Quizzes 写入的文件名。
+        :Return: 描述 Quizzes 实际写入/操作的文件。
+        """
         ...
 
     def get_quizzes(self, quiz_request: QuizRequest) -> list[Quiz]:
